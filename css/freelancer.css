@@ -1,8 +1,15 @@
-/* Formatting */
-
-body {
-  /*overflow-x: hidden;*/
+#name {
+  font-family: Barlow;
+  font-size: 48px;
+  padding-bottom: 0.2em;
+  letter-spacing: 0;
 }
+
+#info {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .col-md-9 {
   width: 11.11%;
 }
@@ -17,10 +24,15 @@ p.small {
   display: block;
 }
 .gradient {
-  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
-  /*background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);*/
-  height: 600px;
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
+  background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);
+  padding-bottom: 25px;
 }
+
+.logo {
+  opacity: 0.75;
+}
+
 .gradient-reverse {
   background: linear-gradient(89.85deg, #8158C4 0.02%, #7B5CF7 109.11%);
   height: 500px;
@@ -59,8 +71,8 @@ p.small {
 }
 
 .sponsor-img {
-  max-width: 150px;
-  max-height: 100px;
+  max-width: 50%;
+  max-height: 75px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,11 +88,14 @@ p.small {
 }
 
 header .intro-text {
-  padding-left: 70px;
-  padding-right: 100px;
   text-align: center;
   color: #fefffe;
   font-size: 30px;
+}
+
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 header .intro-text img {
@@ -108,8 +123,10 @@ header .intro-text a {
 .navbar-custom {
   font-size: 16px;
   color: #ffffff;
-  padding-bottom: 5%;
-  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
+  /*padding-bottom: 5%;*/
+  background-color: rgba(180, 180, 180, 0.75);
+  background: rgba(196, 196, 196, 0.5);
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   border: none;
 }
 
@@ -126,7 +143,8 @@ header .intro-text a {
 }
 
 .navbar-custom .navbar-toggle {
-  color: #5E31AA;
+  /*color: #5E31AA;*/
+  color: white;
   font-size: 20px;
   border-color: white;
 }
@@ -138,7 +156,7 @@ header .intro-text a {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
