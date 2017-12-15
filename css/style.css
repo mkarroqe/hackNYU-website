@@ -1,14 +1,6 @@
-@font-face {
-    font-family: IBMPlexMono-Regular;
-    src: url(IBMPlexMono-Regular.eot);
+@import url('https://fonts.googleapis.com/css?family=Barlow:600&text=HackNYU');
 
-    font-family: IBMPlexMono-ExtraLight;
-    src: url(IBMPlexMono-ExtraLight.eot);
-}
 body {
-	font-family: 'IBMPlexMono-ExtraLight', sans-serif;
-	font-weight: lighter;
-}
-h3 {
-	font-family: 'IBMPlexMono-ExtraLight', sans-serif;
+  font-family: "IBM Plex Sans";
+  letter-spacing: 0.02em;
 }
