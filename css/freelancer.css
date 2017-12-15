@@ -1,13 +1,7 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 /* Formatting */
 
 body {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 .col-md-9 {
   width: 11.11%;
@@ -24,6 +18,7 @@ p.small {
 }
 .gradient {
   background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
+  /*background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);*/
   height: 600px;
 }
 .gradient-reverse {
@@ -65,6 +60,7 @@ p.small {
 .sponsor-icon {
   width: 150px;
 }
+
 header .intro-text {
   padding-left: 70px;
   padding-right: 100px;
@@ -72,56 +68,49 @@ header .intro-text {
   color: #fefffe;
   font-size: 30px;
 }
+
 header .intro-text img {
   width: 100px;
 }
+
 header .intro-text a {
   color: white;
 }
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
+
 @media (min-width: 978px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
   }
 }
+
 .navbar-custom {
   font-size: 16px;
   color: #ffffff;
   padding-bottom: 5%;
   background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
-  /*opacity: 0.75;*/
   border: none;
 }
-/*.navbar-custom:hover {
-  opacity: 1;
-}*/
+
 .navbar-custom .navbar-nav li a {
   color: #ffefff;
 }
 .navbar-custom .navbar-nav li a:hover {
-  /*font-weight: 600;*/
   color: #ffffff;
 }
-/*.navbar-custom .navbar-nav li a:focus,
-.navbar-custom .navbar-nav li a:active {
-  color: white;
-}
-*/.navbar-custom .navbar-nav li.active a {
+
+.navbar-custom .navbar-nav li.active a {
   color: white;
   background: #a5b0cc;
 }
-/*.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #5E31AA;
-}*/
+
 .navbar-custom .navbar-toggle {
   color: #5E31AA;
   font-size: 20px;
@@ -160,40 +149,3 @@ footer {
   padding: 25px 0;
   font-weight: 300;
 }
-/*
-footer p {
-  font-size: 13px;
-}
-footer .footer-italic {
-  font-style: italic;
-}
-footer a {
-  text-decoration: underline;
-  color: #000000;
-}
-footer a:hover {
-  color: #ece0f1;
-}*/
-
-
-/*#skipnav a {
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  left: 0px;
-  color: white;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-  border-bottom-right-radius: 8px;
-  background: transparent;
-  transition: top 1s ease-out, background 1s linear;
-  z-index: 2000;
-}
-#skipnav a:focus {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background: #a5b0cc; /* for easy mod */
-  outline: 0;
-  transition: top 0.1s ease-in, background 0.5s linear;
-}*/
