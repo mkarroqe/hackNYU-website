@@ -24,8 +24,8 @@ p.small {
   display: block;
 }
 .gradient {
-  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
-  background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);
+  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
+  /*background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);*/
   padding-bottom: 25px;
 }
 
@@ -94,7 +94,7 @@ header .intro-text {
 }
 
 header .container {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
@@ -124,18 +124,25 @@ header .intro-text a {
   font-size: 16px;
   color: #ffffff;
   /*padding-bottom: 5%;*/
-  background-color: rgba(180, 180, 180, 0.75);
-  background: rgba(196, 196, 196, 0.5);
+  /*background-color: rgba(180, 180, 180, 0.75);*/
+  /*background-color: rgba(196, 196, 196, 0.5);*/
+  background-color: #371e60;
   /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   border: none;
 }
 
-.navbar-custom .navbar-nav li a {
-  color: #ffefff;
+.navbar-custom .navbar-nav li a,
+.navbar-custom .navbar-nav li a:hover,
+.navbar-custom .navbar-nav li a:visited {
+  color: white;
 }
-.navbar-custom .navbar-nav li a:hover {
-  color: #ffffff;
-}
+/*
+.navbar-custom:hover {
+  /*-webkit-transition: background-color 0.3s;*/
+  /*-moz-transition: background-color 0.3s;*/
+  /*transition: background-color 0.3s;*/
+  /*background-color: #371e60;*/
+}*/
 
 .navbar-custom .navbar-nav li.active a {
   color: white;
