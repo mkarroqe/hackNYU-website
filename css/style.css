@@ -1,0 +1,14 @@
+@font-face {
+    font-family: IBMPlexMono-Regular;
+    src: url(IBMPlexMono-Regular.eot);
+
+    font-family: IBMPlexMono-ExtraLight;
+    src: url(IBMPlexMono-ExtraLight.eot);
+}
+body {
+	font-family: 'IBMPlexMono-ExtraLight', sans-serif;
+	font-weight: lighter;
+}
+h3 {
+	font-family: 'IBMPlexMono-ExtraLight', sans-serif;
+}
