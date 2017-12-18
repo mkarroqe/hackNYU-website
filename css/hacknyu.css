@@ -71,7 +71,8 @@ p.small {
 }
 
 #tracks {
-  padding: 60px 0;
+  padding: 100px 0;
+  padding-top: 60px;
 }
 
 .white {
@@ -223,9 +224,14 @@ header .intro-text a {
   }
 }
 
+.title {
+  margin-top: 0;
+}
+
 footer {
   color: #ffffff;
-  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
+  background: #371e60;
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   padding: 25px 0;
   font-weight: 300;
 }
