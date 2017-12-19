@@ -173,10 +173,11 @@ header .intro-text img {
   font-size: 16px;
   color: #ffffff;
   /*padding-bottom: 5%;*/
-  background-color: rgba(137, 130, 176, 0.8);
+  /*background-color: rgba(137, 130, 176, 0.8);*/
   /*background-color: rgba(180, 180, 180, 0.75);*/
   /*background-color: rgba(196, 196, 196, 0.5);*/
   /*background: #4b3174;*/
+  background: #36284d;
   /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   border: none;
 }
