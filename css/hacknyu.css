@@ -8,6 +8,15 @@
 #info {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2em;
+}
+
+.call-to-action {
+  color: black;
+  background: #FFC000;
+  padding: 0.5em 1em;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 .col-md-9 {
@@ -93,8 +102,10 @@ p.small {
 .title {
   color: white;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .sub-title {
   color: black;
@@ -140,10 +151,6 @@ header .intro-text img {
   width: 100px;
 }
 
-header .intro-text a {
-  color: white;
-}
-
 @media (min-width: 768px) {
   header .container {
     padding-top: 175px;
@@ -166,9 +173,10 @@ header .intro-text a {
   font-size: 16px;
   color: #ffffff;
   /*padding-bottom: 5%;*/
+  background-color: rgba(137, 130, 176, 0.8);
   /*background-color: rgba(180, 180, 180, 0.75);*/
   /*background-color: rgba(196, 196, 196, 0.5);*/
-  background: #4b3174;
+  /*background: #4b3174;*/
   /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   border: none;
 }
@@ -217,20 +225,17 @@ header .intro-text a {
   }
   .navbar-custom.affix {
     padding: 10px 0;
-    background: #371e60;
+    background: #36284d;
+    /*background-color: rgba(175, 175, 175, 0.8);*/
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
 
-.title {
-  margin-top: 0;
-}
-
 footer {
   color: #ffffff;
-  background: #371e60;
+  background: #36284d;
   /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   padding: 25px 0;
   font-weight: 300;
