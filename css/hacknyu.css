@@ -8,6 +8,15 @@
 #info {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2em;
+}
+
+.call-to-action {
+  color: black;
+  background: #FFC000;
+  padding: 0.5em 1em;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 .col-md-9 {
@@ -24,9 +33,41 @@ p.small {
   display: block;
 }
 .gradient {
-  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
-  /*background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);*/
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
+  background: linear-gradient(246.94deg, #5B99EB -0.38%, #7325C0 91.68%, #751ABD 99.99%);
   padding-bottom: 25px;
+}
+
+.track-card {
+  background-color: white;
+  /*width: 50%;*/
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1 0 auto;
+  margin: 10px 10px;
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 75%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .track-card {
+    flex: 1 1 0;
+  }
 }
 
 .logo {
@@ -34,9 +75,15 @@ p.small {
 }
 
 .gradient-reverse {
-  background: linear-gradient(89.85deg, #8158C4 0.02%, #7B5CF7 109.11%);
-  height: 500px;
+  /*background: linear-gradient(89.85deg, #8158C4 0.02%, #7B5CF7 109.11%);*/
+  background: linear-gradient(89.85deg, #A1BADA 0.02%, #7B5CF7 109.11%);
 }
+
+#tracks {
+  padding: 100px 0;
+  padding-top: 60px;
+}
+
 .white {
   background-color: #ffffff;
   text-align: center;
@@ -55,11 +102,13 @@ p.small {
 .title {
   color: white;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 48px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .sub-title {
-  color: white;
+  color: black;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
@@ -102,10 +151,6 @@ header .intro-text img {
   width: 100px;
 }
 
-header .intro-text a {
-  color: white;
-}
-
 @media (min-width: 768px) {
   header .container {
     padding-top: 175px;
@@ -128,9 +173,11 @@ header .intro-text a {
   font-size: 16px;
   color: #ffffff;
   /*padding-bottom: 5%;*/
+  /*background-color: rgba(137, 130, 176, 0.8);*/
   /*background-color: rgba(180, 180, 180, 0.75);*/
   /*background-color: rgba(196, 196, 196, 0.5);*/
-  background: #371e60;
+  /*background: #4b3174;*/
+  background: #36284d;
   /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   border: none;
 }
@@ -170,9 +217,6 @@ header .intro-text a {
     padding: 25px 0;
     transition-duration: 0.3s;
     background: none;
-    /*-webkit-transition: padding 0.3s;*/
-    /*-moz-transition: padding 0.3s;*/
-    /*transition: padding 0.3s;*/
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
@@ -182,7 +226,8 @@ header .intro-text a {
   }
   .navbar-custom.affix {
     padding: 10px 0;
-    background: #371e60;
+    background: #36284d;
+    /*background-color: rgba(175, 175, 175, 0.8);*/
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -191,7 +236,8 @@ header .intro-text a {
 
 footer {
   color: #ffffff;
-  background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);
+  background: #36284d;
+  /*background: linear-gradient(89.85deg, #5E31A8 0.02%, #4D27E6 109.11%);*/
   padding: 25px 0;
   font-weight: 300;
 }
