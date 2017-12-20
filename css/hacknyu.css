@@ -47,8 +47,6 @@ p.small {
   margin: 10px 10px;
 }
 
-
-
 .card-container {
   display: flex;
   justify-content: center;
@@ -99,8 +97,20 @@ p.small {
   color: white;
   background-color: #A1B7D9;
 }
+.purple {
+  color: white;
+  background-color: #36284D;
+}
 .title {
   color: white;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.title2 {
+  color: #36284D;
   font-weight: 300;
   font-size: 48px;
   text-align: center;
