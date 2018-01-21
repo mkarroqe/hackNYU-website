@@ -1,3 +1,8 @@
+#mlh-trust-badge {
+  left: 50px;
+  right: auto;
+}
+
 #name {
   font-family: Barlow;
   font-size: 48px;
@@ -241,6 +246,11 @@ header .intro-text img {
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
+  }
+
+  #mlh-trust-badge {
+    right: 50px;
+    left: auto;
   }
 }
 
